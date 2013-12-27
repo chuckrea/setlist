@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require 'setlist'
+
+Setlist.dir_structure
+Setlist.create_files
