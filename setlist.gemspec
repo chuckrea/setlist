@@ -9,6 +9,7 @@ Gem::Specification.new do |s|
   s.files = [
     "lib/setlist.rb",
     "bin/setlist",
+    "bin/curtains"
   ]
   s.executables << 'setlist'
   s.executables << 'curtains'

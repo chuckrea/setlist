@@ -25,7 +25,7 @@ class Setlist
     File.new("./public/styles.css", "a")
   end
 
-  def self.delete_dir
+  def self.delete_files
 
     @default_files.each do |file|
       File.delete(file)
