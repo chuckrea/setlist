@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 
 class Setlist
 
   @default_files = ["app.rb", "Gemfile", "config.rb", "Rakefile"]
   @default_folders = ["public", "models", "views"]
+
+>>>>>>> 3e77129b347e12b1026f79d0ab43c5610e93e3e6
 
   def self.dir_structure
 
