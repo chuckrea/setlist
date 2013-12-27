@@ -1,15 +1,18 @@
+require '/modules/structure'
+
 class Setlist
+include Structure
 
   def self.dir_structure
 
-    ["public", "models", "views"].each do |dir|
+    @defalut_folders.each do |dir|
       Dir.mkdir("./#{dir}")
     end  
   end 
 
   def self.create_files
    
-    ["app.rb", "Gemfile", "config.rb", "Rakefile"].each do |file|
+    @default_files.each do |file|
       File.new(file, "a")
     end
 

@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name = "Setlist"
+  s.name = "setlist"
   s.version = "0.0.3"
   s.date = "2013-12-27"
   s.summary = "Sinatra Setlist"
@@ -12,4 +12,5 @@ Gem::Specification.new do |s|
   ]
   s.executables << 'setlist'
   s.require_paths = ["lib"]
+  s.license = "MIT"
 end
