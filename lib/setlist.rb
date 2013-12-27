@@ -21,8 +21,15 @@ include Structure
     end
 
     File.new("./public/styles.css", "a")
- 
   end
+
+  def self.delete_dir
+
+    @default_files.each do |file|
+      File.delete(file)
+    end
+  end
+
 end
 
 

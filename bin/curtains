@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'setlist'
+
+Setlist.delete_files
