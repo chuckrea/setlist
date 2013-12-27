@@ -7,10 +7,8 @@ Gem::Specification.new do |s|
   s.authors = ["Michael Tener", "Chuck Rea"]
   s.email = "michaeltener@gmail.com", "chuckr523@mac.com"
   s.files = [
-    "lib/setlist",
+    "lib/setlist.rb",
     "bin/setlist",
-    "lib/modules/structure"
-
   ]
   s.executables << 'setlist'
   s.executables << 'curtains'
