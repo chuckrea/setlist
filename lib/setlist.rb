@@ -1,11 +1,12 @@
-require '/modules/structure'
 
 class Setlist
-include Structure
+
+  @default_files = ["app.rb", "Gemfile", "config.rb", "Rakefile"]
+  @default_folders = ["public", "models", "views"]
 
   def self.dir_structure
 
-    @defalut_folders.each do |dir|
+    @default_folders.each do |dir|
       Dir.mkdir("./#{dir}")
     end  
   end 
