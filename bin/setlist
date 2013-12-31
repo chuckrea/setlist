@@ -3,3 +3,6 @@ require 'setlist'
 
 Setlist.dir_structure
 Setlist.create_files
+Setlist.gemfile_template
+Setlist.layout_template
+Setlist.app_template
